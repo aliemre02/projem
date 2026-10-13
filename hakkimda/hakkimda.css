@@ -1,0 +1,77 @@
+*{
+    margin :0;
+    padding :0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height:100vh;
+    line-height: 1.6;
+    background-image:url(../img/hakkimdaresmi.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #e2e8f0;
+}
+
+.container{
+    max-width:800px;
+    margin:0 auto;
+    padding: 40px 20px;
+}
+.container header{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.container header .button1{
+    color:#374151;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius:20px;
+    background-color: #F3F4F6;
+    padding: 10px 20px;
+}
+.container header .button1:hover{
+    background-color: #FFDBBB;
+    transition: background-color 0.5s ease;
+    transition: transform 0.3s ease;
+    transform: translateY(-2px);
+}
+.container header a.active{
+    background-color: #FFDBBB;
+    color: #374151;
+}
+
+
+.hakkimda-section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.hakkimda {
+    padding:30px;
+    width: 100%;
+    border: 2px solid rgba(255, 255, 255, 0.15); 
+    border-radius: 20px;
+    
+}
+
+.hakkimda h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #FFDBBB; /* Header'daki hover renginle uyumlu başlık */
+    border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+    padding-bottom: 12px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.hakkimda p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    color: #f1f5f9;
+}

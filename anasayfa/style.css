@@ -6,20 +6,69 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height:100vh;
-    display :flex;
-    flex-direction: column;
     line-height: 1.6;
     background-color:  #0f172a;
     color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
 }
 
 .container{
     max-width:800px;
     margin:0 auto;
     padding: 40px 20px;
-    flex: 1;
+    flex:1;
 }
-header{
+.container header{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.container header .button1{
+    color:#374151;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius:20px;
+    background-color: #F3F4F6;
+    padding: 10px 20px;
+}
+.container header .button1:hover,
+.container header a.active{
+    background-color: #FFDBBB;
+    transition: background-color 0.5s ease;
+    transition: transform 0.3s ease;
+    transform: translateY(-2px);
+}
+.container .genel-bilgi{
+    padding:0 30px;
+    margin-top:50px;
+}
+.container .genel-bilgi h2{
+    font-size:30px;
+    margin-bottom:20px;
+}
+.container .arkaplan-resim{
+    background-image:url(../img/resim.jpg);
+    min-height: 300px;
+    background-size:cover;
+    background-position:center;
+    margin: 20px 30px;
+    border-radius: 10px;
+}
+footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #090d16;
+    color: #64748b;
+    font-size:15px;
+    padding:10px;
+    margin-top: auto;
+}
+
+/*header{
     text-align: center;
     margin-bottom:50px;
     border-bottom:1px solid #1e293b;
@@ -33,8 +82,8 @@ header h1{
 header p{
     font-size:30px;
     color:#38bdf8;
-}
-section{
+}*/
+/*section{
     margin-bottom:40px;
 }
 section h2{
@@ -84,4 +133,4 @@ section h2{
             font-size: 0.9rem;
             border-top: 1px solid #1e293b;
         }
-
+*/
