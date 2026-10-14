@@ -63,7 +63,7 @@ body{
 .hakkimda h2 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #FFDBBB; /* Header'daki hover renginle uyumlu başlık */
+    color: #FFDBBB; 
     border-bottom: 2px solid rgba(255, 255, 255, 0.15);
     padding-bottom: 12px;
     font-weight: 600;
@@ -74,4 +74,49 @@ body{
     font-size: 1.1rem;
     margin-bottom: 15px;
     color: #f1f5f9;
+}
+.okul-satir {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px 18px;
+    border-radius: 14px;
+    color: #f1f5f9;
+    font-size: 1rem;
+    margin-top:20px;
+}
+
+.okul-satir strong {
+    color: #FFDBBB;
+}
+.kep-ikon {
+    font-size: 1.2rem;
+}
+
+
+
+
+.cv-satir-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: rgba(255, 219, 187, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px 18px;
+    border-radius: 14px;
+    color: #FFDBBB;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top:20px;
+}
+
+.cv-satir-btn:hover {
+    background: #FFDBBB;
+    color: #0f172a;
+    border-color: #FFDBBB;
 }
